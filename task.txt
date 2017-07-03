@@ -1,0 +1,7 @@
+The test task: Using python 2.7 implement a function that: 
+- Accepts an array of pairs of values as a parameter - either of datetime, or of an integer type (timestamp in UTC format)
+- Accepts an additional pair of values of the same type over which the calculations are to be done 
+- Yields a concurrent peak of intervals defined by the 1st parameter over the interval defined in a 2nd parameter, and the point where this maximum was reached 
+
+Example of usage: we have numerous calls having a start, and end timestamp. 
+We need to calculate a maximum number of calls that were active simultenaously in a given day / hour, and when exactly that maximum was reached.
